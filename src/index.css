@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-bit: "Bitcount Prop Single", sans-serif; 
+  --font-rubik: "Rubik", sans-serif; 
+  --color-facebook: #1877F2;
+  --color-twitter: #000000;
+  --color-whatsapp: #25D366;
+  --color-linkedin:  #0077B5;
+  --color-instagram: #d62976;
+
+}
